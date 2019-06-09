@@ -1,0 +1,6 @@
+package spring;
+@Configuration
+@Component
+public class SportConfig {
+
+}

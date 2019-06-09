@@ -1,0 +1,19 @@
+package spring;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class BaseballCoach implements Coach {
+
+	public FortuneService theFortuneService;
+	@Override
+	public String getDailyWorkout() {
+		return "Bat if possible";
+	}
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return theFortuneService.getFortune();
+	}
+
+}

@@ -1,0 +1,18 @@
+package spring;
+
+import org.springframework.stereotype.Component;
+
+@Component("myCoach")
+public class CricketCoach implements Coach {
+	
+	public CricketCoach() {
+		System.out.println("CricketCoach no-arg constructor");
+	}
+
+	@Override
+	public String getDailyWorkout() {
+		// TODO Auto-generated method stub
+		return "Catch Catch play!";
+	}
+	
+}
