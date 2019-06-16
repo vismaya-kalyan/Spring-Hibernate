@@ -1,6 +1,0 @@
-package spring;
-@Configuration
-@ComponentScan("spring")
-public class SportConfig {
-
-}

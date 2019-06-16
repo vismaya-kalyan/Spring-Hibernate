@@ -1,5 +1,5 @@
-<!-- <form:option value="Brazil" label="Brazil" />
-			<form:option value="United States" label="United States" />
-			<form:option value="India" label="India" />
-			<form:option value="France" label="France" />	
-			<form:option value="Kalasipalya" label="Kalasipalya" /> -->
+<form:option value="Brazil" label="Brazil" />
+<form:option value="United States" label="United States" />
+<form:option value="India" label="India" />
+<form:option value="France" label="France" />	
+<form:option value="Kalasipalya" label="Kalasipalya" />
