@@ -8,6 +8,8 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
+import spring.validation.CourseCode;
+
 public class Student {
 	
 	
@@ -23,10 +25,14 @@ public class Student {
 	private Integer age;
 	private String favoriteLanguage;
 	private String country;
+
 	
 	@Pattern(regexp="^[0-9]{5}", message="Needs 5-digits")
 	private String postalCode;
 	private String[] operatingSystem;
+	
+	@CourseCode
+	private String courseCode;
 	
 	private LinkedHashMap<String,String> countryOptions;
 	public Student() {
@@ -110,6 +116,17 @@ public class Student {
 		this.operatingSystem = operatingSystem;
 	}
 
+
+	public String getCourseCode() {
+		return courseCode;
+	}
+
+
+	public void setCourseCode(String courseCode) {
+		this.courseCode = courseCode;
+	}
+
+	
 
 	
 	

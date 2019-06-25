@@ -45,6 +45,10 @@
 		Windows <form:checkbox path="operatingSystem" value="Windows"/>
 		Mac OS <form:checkbox path="operatingSystem" value="Mac OS"/>
 		<br><br>
+		Course Code: <form:input path="courseCode"/>
+		<form:errors path="courseCode" cssClass="error"/>
+		<br><br>
+		<br><br>
 		<input type="submit" value="Submit"/>
 		
 	

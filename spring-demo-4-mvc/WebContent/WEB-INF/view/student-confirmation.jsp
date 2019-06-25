@@ -25,5 +25,7 @@ Operating Systems:
 </c:forEach>
 </ul>
 
+Course Code: ${student.courseCode}
+<br>
 </body>
 </html>
