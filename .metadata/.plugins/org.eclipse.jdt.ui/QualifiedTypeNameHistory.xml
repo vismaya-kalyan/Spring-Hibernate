@@ -45,4 +45,6 @@
     <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
     <fullyQualifiedTypeName name="spring.jdbc.Student"/>
     <fullyQualifiedTypeName name="org.hibernate.Session"/>
+    <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
 </qualifiedTypeNameHistroy>
