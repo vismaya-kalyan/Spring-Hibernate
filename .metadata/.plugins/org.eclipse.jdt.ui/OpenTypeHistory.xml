@@ -1,6 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy>
-    <typeInfo handle="=web-customer-tracker/src&lt;springdemo.dao{CustomerDAO.java[CustomerDAO" modifiers="513" timestamp="1566361741506"/>
-    <typeInfo handle="=web-customer-tracker/src&lt;springdemo.services{CustomerService.java[CustomerService" modifiers="513" timestamp="1566428104336"/>
-    <typeInfo handle="=web-customer-tracker/E:\/spring and hibernate\/web-customer-tracker\/WebContent\/WEB-INF\/lib\/hibernate-core-5.4.3.Final.jar&lt;org.hibernate(CustomEntityDirtinessStrategy.class[CustomEntityDirtinessStrategy" modifiers="1537" timestamp="1566347991083"/>
-</typeInfoHistroy>
+<typeInfoHistroy/>
